@@ -1,6 +1,6 @@
 
 
-
+document.querySelector('quiz');
 function checkAnswer() {
     // Function body
 
