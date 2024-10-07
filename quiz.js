@@ -16,7 +16,7 @@ function checkAnswer() {
     userAnswer =document.getElementById("choice3").value;
     }
 
-    if (userAnswer==correctAnswer){
+    if (userAnswer===correctAnswer){
         document.getElementById("feedback").innerHTML="Correct! Well done.";
     }
     else{
